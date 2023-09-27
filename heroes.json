@@ -1,0 +1,29 @@
+{
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Pervyj geroj",
+            "description": "Pervyj geroj v rejtinge!",
+            "element": "fire"
+        },
+        {
+            "id": 2,
+            "name": "Neizvestnyj geroj",
+            "description": "Skryvajushhijsja v teni",
+            "element": "wind"
+        },
+        {
+            "id": 3,
+            "name": "Morskoj geroj",
+            "description": "Kak akvamen, no ne iz DC",
+            "element": "water"
+        }
+    ],
+    "filters": [
+        "all",
+        "fire",
+        "water",
+        "wind",
+        "earth"
+    ]
+}
