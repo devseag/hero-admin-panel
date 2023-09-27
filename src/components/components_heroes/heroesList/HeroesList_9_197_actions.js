@@ -15,14 +15,8 @@ import './heroesList.scss';
 // Udalenie idet i s json fajla pri pomoshhi metoda DELETE
 
 const HeroesList = () => {
-    const filteredHeroes = useSelector(state => {
-        if (state.activeFilter === 'all') {
-            return state.heroes;
-        } else {
-            return state.heroes.filter(item => item.element === state.activeFilter)
-        }
-    })
-    const heroesLoadingStatus = useSelector(state => state.heroesLoadingStatus);
+    // const {heroes, heroesLoadingStatus} = useSelector(state => state);
+    const {filteredHeroes, heroesLoadingStatus} = useSelector(state => state);
     const dispatch = useDispatch();
     const {request} = useHttp();
 
