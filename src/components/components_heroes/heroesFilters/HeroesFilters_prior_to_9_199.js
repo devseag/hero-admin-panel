@@ -14,7 +14,7 @@ import Spinner from '../spinner/Spinner';
 // Predstav'te, chto vy poprosili bjekend-razrabotchika ob jetom
 
 const HeroesFilters = () => {
-    const {filters, filtersLoadingStatus, activeFilter} = useSelector(state => state.filters);
+    const {filters, filtersLoadingStatus, activeFilter} = useSelector(state => state);
     const dispatch = useDispatch();
     const {request} = useHttp();
 
